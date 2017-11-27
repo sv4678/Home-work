@@ -1,0 +1,77 @@
+.top {
+	background-color: #423f3f;
+	height: 200px; 
+	padding: 80px
+}
+.golden {
+	color: yellow;
+}
+a {
+	color: white;
+}
+h3 {
+	padding-top: 50px;
+	color: white;
+}
+h1 {
+	color: white;
+}
+h4 {
+	color: white;
+
+}
+.services {
+	padding-top: 124px;
+	padding-bottom: 80px;
+}
+.one {
+	width: 235px; 
+    padding: 5px;
+    float: left;
+    position: relative
+    left=0px
+}
+.img {
+	border: 3px solid #5bc6e7;
+	border-radius: 50px;
+	width: 70px;
+}
+.two {
+	width: 235px; 
+    padding: 5px;
+    float: left; 
+    position: relative; 
+    left: 300px;
+} 
+.three {
+	width: 235px; 
+    padding: 5px;
+    float: left; 
+   position: relative; 
+    left: 400px; 
+}
+.portfolio {
+	padding: 122px;
+	padding-bottom: 80px;
+}
+.four {
+	width: 235px; 
+    padding: 5px;
+    float: left;
+    position: relative
+    left=0px
+}
+.five {
+	width: 235px; 
+    padding: 5px;
+    float: left; 
+    position: relative; 
+    left: 300px;
+} 
+.six {
+	width: 235px; 
+    padding: 5px;
+    float: left; 
+   position: relative; 
+    left: 400px; 
+}
