@@ -1,65 +1,91 @@
-.top {
+header {
 	background-color: #423f3f;
 	height: 200px; 
 	padding: 80px
 }
+
 .golden {
-	color: yellow;
+    color: yellow;
+    position: relative;
+    left: 0%;
+    margin-right: 0px;
+}
+.menu {
+    position: relative;
+    left: 550px;
+    padding-left: 5px; 
+
 }
 a {
 	color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+h3,
+h1,
+h4,
+h5,
+h6 {
+    text-align: center;
 }
 h3 {
 	padding-top: 50px;
 	color: white;
 }
-h1 {
-	color: white;
-}
+h1,
 h4 {
 	color: white;
-
+}
+ul li {
+    display: inline;
+    list-style: none;
 }
 .services {
 	padding-top: 124px;
 	padding-bottom: 80px;
+    text-align: center;
 }
-.one {
+.one,
+.two,
+.three {
 	width: 235px; 
-    padding: 5px;
-    float: left;
-    position: relative
-    left=0px
+    text-align: center;
 }
+
+.one  {
+    left: 150px;
+    position: relative;
+   }
+
 .img {
 	border: 3px solid #5bc6e7;
 	border-radius: 50px;
 	width: 70px;
+    left: 235px;
+    position: relative;
 }
-.two {
-	width: 235px; 
-    padding: 5px;
-    float: left; 
-    position: relative; 
-    left: 300px;
-} 
-.three {
-	width: 235px; 
-    padding: 5px;
-    float: left; 
-   position: relative; 
-    left: 400px; 
-}
+
 .portfolio {
 	padding: 122px;
 	padding-bottom: 80px;
+    text-align: center;
 }
 .four {
 	width: 235px; 
     padding: 5px;
     float: left;
-    position: relative
-    left=0px
+    position: relative;
+    left: 0px;
+    text-align: center;
 }
 .five {
 	width: 235px; 
@@ -67,6 +93,7 @@ h4 {
     float: left; 
     position: relative; 
     left: 300px;
+    text-align: center;
 } 
 .six {
 	width: 235px; 
@@ -74,4 +101,35 @@ h4 {
     float: left; 
    position: relative; 
     left: 400px; 
+    text-align: center;
 }
+.seven {
+    width: 235px; 
+    padding: 5px;
+    float: left;
+    position: relative;
+    left: 0px;
+    text-align: center;
+}
+.eight {
+    width: 235px; 
+    padding: 5px;
+    float: left; 
+    position: relative; 
+    left: 300px;
+    text-align: center;
+} 
+.nine {
+    width: 235px; 
+    padding: 5px;
+    float: left; 
+   position: relative; 
+    left: 400px; 
+    text-align: center;
+}
+.links {
+  background-color: black;
+}
+
+
+
