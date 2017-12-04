@@ -3,139 +3,169 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Homework1</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+
 	<header>
-		<section  class="golden">
-			<a href="./golden.html" title="GOLDEN" target="_blank">Golden</a>
-		</section>
-		<section class="menu">
-			<a href="./home.html" title="HOME">HOME</a> 
-			<a href="#services" title="SERVICES">SERVICES</a>
-			<a href="#portfolio" title="PORTFOLIO">PORTFOLIO</a>
-			<a href="#about" title="ABOUT">ABOUT</a>
-			<a href="#contact" title="CONTACT">CONTACT</a>
-		</section>
+		<div class="content-width">
+		<div class="flex1">
+			<div class="golden">
+				<a href="./golden.html" title="GOLDEN" target="_blank">Golden</a>
+			</div>
+			<ul class="menu">
+				<li><a href="./home.html" title="HOME">HOME</a></li>
+				<li><a href="#services" title="SERVICES">SERVICES</a></li>
+				<li><a href="#portfolio" title="PORTFOLIO">PORTFOLIO</a></li>
+				<li><a href="#about" title="ABOUT">ABOUT</a></li>
+				<li><a href="#contact" title="CONTACT">CONTACT</a></li>
+			</ul>
+		</div>
 			<h3>Welcome To Our Studio!</h3>
 			<p><h1>IT'S NICE TO MEET YOU!</h1></p>
-   			<p><h4>TELL ME MORE</h4></p>
+   			<input type="button" class='btn' value='tell me more'>
+   			</input>
    	</header>
+
 	<section class="services" id="services">
-		<p><h2>SERVICES</h2></p>		
-		<p><h6>Proin iaculis purus consequat sem cure.</h6></p>
+		<div class="content-width">
+			<h2>services</h2>	
+			<p><h3>Proin iaculis purus consequat sem cure.</h3></p>
+	   <div class="flex2">
+			<div class="one">
+				<img src="./img/IconBasket.jpg" alt='E-Commerce'>
+				<h4>E-Commerce</h4>
+				<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</h5>
+			</div>
+			<div class="one">
+				<img src="./img/laptop.jpg" alt='Responsive Web'>
+				<h4>Responsive Web</h4>
+				<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</h5>
+			</div>
+			<div class="one">
+				<img src="./img/locked.jpg" alt='Web Security'>
+				<h4>Web Security</h4>
+			 	<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h5>
+			</div>
+		</div>
+		</div>	
 	</section>
-	<ul>
-		<li>
-		<section class="img">
-				<img src="ecom.png" alt='E-Commerce' height="60">
-		</section>
-		<section class="one">
-				<p><h5>E-Commerce</h5></p>
-				<h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</h6>
-		</section>
-	</li>
-	<li>
-		<section class="two">
-			<h5>Responsive Web</h5>
-			<h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</h6>
-		</section>
-	</li>
-	<li>
-		<section class="three">
-			 <h5>Web Security</h5>
-			 <h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h6>
-		</section>
-	</li>
-</ul>
 	<section class="portfolio" id="portfolio">
-		<h2>PORTFOLIO</h2>
-		<p><h6>Proin iaculis purus consequat sem cure. </h6></p>	
-		<section class="four" >
-			<h5>Ebony & Ivory</h5> 
-			<h6>Branding</h6>
-		</section>
-		<section class="five">
-			<h5>Smart Stationary</h5>
-			<h6>Print Design</h6>
-		</section>
-		<section class="six">
-			 <h5>Clevel Poster</h5>
-			 <h6>Print Desig<h6>
-		</section>
-		<section class="seven">
-			 <h5>Vinyl Record</h5>
-			 <h6>Product Mock-up<h6>
-		</section>
-		<section class="eight">
-			 <h5>Treehouse Template</h5>
-			 <h6>Web Desig<h6>
-		</section>
-		<section class="nine">
-			 <h5>Burned Logo</h5>
-			 <h6>Branding<h6>
-		</section>
+	<div class="content-width">
+		<h2>OUR PORTFOLIO</h2>
+		<p><h3>Proin iaculis purus consequat sem cure.</h3></p>
+	<div class="flex">
+		<div class="four">
+			<a href=""><img src="./img/Ebony&Ivory.jpg" alt="Ebony&Ivory"></a>
+			<h4>Ebony&Ivory</h4> 
+			<h5>Branding</h5>
+		</div>
+		<div class="four">
+			<a href=""><img src="./img/SmartStationary.jpg" alt="Smart Stationary"></a>
+			<h4>Smart Stationary</h4> 
+			<h5>Print Design</h5>
+		</div>
+		<div class="four">
+			<a href=""><img src="./img/ClevelPoster.jpg" alt="Clevel Poster"></a>
+			<h4> Clevel Poster</h4> 
+			<h5>Print Design</h5>
+		</div>
+		<div class="four">
+			<a href=""><img src="./img/VinylRecord.jpg" alt="Vinyl Record"></a>
+			<h4>Vinyl Record</h4> 
+			<h5>Product Mock-up</h5>
+		</div>
+		<div class="four">
+			<a href=""><img src="./img/Treehousetemplate.jpg" alt="Treehouse template"></a>
+			<h4>Treehouse template</h4> 
+			<h5>Web Design</h5>
+		</div>
+		<div class="four">
+			<a href=""><img src="./img/burnedlogo.jpg" alt="Burned Logo"></a>
+			<h4>Burned Logo</h4> 
+			<h5>Branding</h5>
+		</div>		
+	</div>
+	</div>
 	</section>
+
 	<section class="about" id="about">
+		<div class="content-width">
 		<h2>ABOUT US</h2>
-		<p><h6>Proin iaculis purus consequat sem cure.</h6></p>	
-		<section class="ten" >
-			<h5>JULY 2010</h5> 
-			<h5>Our Humble Beginings</h5>
-			<h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h6>
-		</section>
-		<section class="eleven">
-			<h5>JANUARY 2011</h5>
-			<h5>Facing Startup Battles</h5>
-			<h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h6>
-		</section>
-		<section class="twelve">
-			 <h5>December 2012</h5>
-			 <h5>Enter The Dark Days</h5>
-			<h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h6>
-		</section>
-		<section class="thirteen">
-			 <h5>FEBRUARY 2014</h5>
-			 <h5>Our Triumph</h5>
-			<h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h6>
-		</section>
-		<section class="fourteen">
-			 <h5>Treehouse Template</h5>
-			 <h6>Web Desig<h6>
-		</section>
-		<section class="story">
+		<p><h3>Proin iaculis purus consequat sem cure.</h3></p>	
+		<div class="ten">
+			<h4>JULY 2010</h4> 
+			<h4>Our Humble Beginings</h4>
+			<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h5>
+		</div>
+		<div class="eleven">
+			<h4>JANUARY 2011</h4>
+			<h4>Facing Startup Battles</h4>
+			<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h5>
+		</div>
+		<div class="ten">
+			 <h4>December 2012</h4>
+			 <h4>Enter The Dark Days</h4>
+			<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h5>
+		</div>
+		<div class="eleven">
+			 <h4>FEBRUARY 2014</h4>
+			 <h4>Our Triumph</h4>
+			<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h5>
+		</div>
+		<div class="story">
 			 <h5>OUR STORY CONTINUES....</h5>
-		</section>
+		</div>
+	</div>
 	</section>
+
 	<section class="team">
+		<div class="content-width">		
 			 <h2>OUR AMAZING TEAM</h2>
-			<p><h6>Proin iaculis purus consequat sem cure.</h6></p>	
-		<section class="kimberly">
-			<h5>Kimberly Thompson</h5>
-			<h6>Marketer<h6>
-		</section>
-		<section class="rico">
-			<h5>Roci Massimo</h5>
-			<h6>Coder<h6>
-		</section>
-		<section class="ucu">
-			<h5>Ucu Mason</h5>
-			<h6>Graphic Designer<h6>
-			<h6>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h6>
-		</section>
+			<p><h3>Proin iaculis purus consequat sem cure.</h3></p>	
+		<div class="kimberly">
+			<h4>Kimberly Thompson</h4>
+			<h5>Marketer<h5>
+			<a href=""><img src="./img/twitter.jpg" alt="Twitter"></a>
+			<a href=""><img src="./img/fb.jpg" alt="Facebook"></a>
+			<a href=""><img src="./img/pinterest.jpg" alt="Pinterest"></a>
+		</div>
+		<div class="rico">
+			<h4>Roci Massimo</h4>
+			<h5>Coder<h5>
+			<a href=""><img src="./img/twitter.jpg" alt="Twitter"></a>
+			<a href=""><img src="./img/fb.jpg" alt="Facebook"></a>
+			<a href=""><img src="./img/google.jpg" alt="Google"></a>
+		</div>
+		<div class="ucu">
+			<h4>Ucu Mason</h4>
+			<h5>Graphic Designer<h5>
+			<a href=""><img src="./img/fb.jpg" alt="Facebook"></a>
+			<a href=""><img src="./img/pinterest.jpg" alt="Pinterest"></a>
+		</div>
+			<h5>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.<h5>
+		</div>
+		</div>
 	</section>
 	<section class="links">
-		<a href="https://envato.com/" target=_blank> envato </a>
-		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSg_I_ZlHb2HJBYvCsK4o8nISU8jit4ajFamj7u8DlkA7IaJbP" alt="WorldPress">
-		<a href="https://worldpress.com/" target=_blank>WorldPress</a>
-		<a href="https:///" target=_blank> ae tuts </a>
-		<a href="https:///" target=_blank> microlancer </a>
+		<div class="content-width">
+		<div class="flexl">
+		<a href=""><img src="./img/envato.jpg" alt="Envato"></a>
+		<a href=""><img src="./img/wp.jpg" alt="WorldPress"></a>
+		<a href=""><img src="./img/tuts.jpg" alt="Tuts+"></a>
+		<a href=""><img src="./img/microl.jpg" alt="Microlancer"></a>
+		</div>
+		</div>
 	</section>
 		<section class="contact" id="contact">
 		 <h2>CONTACT US</h2>
-			<p><h6>Proin iaculis purus consequat sem cure.</h6></p>	
-		<footer>
+		<h6>Proin iaculis purus consequat sem cure.</h6>	
+		<footer class="copyright">
 			<h6>Copyright 2014 FreebiesXpress.com</h6>
+			<a href=""><img src="./img/twitter.jpg" alt="Twitter"></a>
+			<a href=""><img src="./img/fb.jpg" alt="Facebook"></a>
+			<a href=""><img src="./img/pinterest.jpg" alt="Pinterest"></a>
+			<a href=""><img src="./img/google.jpg" alt="Google"></a>
 		</footer>				
 	</body>
 </html>
